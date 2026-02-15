@@ -1,0 +1,50 @@
+<html>
+    <head><title>Input Form-POST</title></head>
+    <br><br>
+    <body>
+        <FORM ACTION="anak_ayam.php" METHOD="POST">
+            <table> 
+                <img src="ayam.jpg" alt="ayam ciken" width="170" height="170">
+                <tr>
+                    <td><h2>Anak Ayam</h2></td>
+                </tr>
+                <tr>
+                    <td>Jumlah Anak Ayam</td><td>:</td><td><input type="text" name="ayam"></td>
+                </tr>
+                <tr>
+                    <style>
+                        body {
+                            margin: 0 auto;
+                            height: 100vh; /* tinggi layar penuh */
+                            display: flex;
+                            justify-content: center; /* tengah horizontal */
+                            align-items: center;     /* tengah vertikal */
+                            background-color: #b2e3eb;
+                            font-family: Georgia, serif;
+                            font-size: 20px;
+                            color: #2b4d52;
+                        }
+                        input[type="submit"] {
+                            background-color: #2b4d52;
+                            color: white;
+                            padding: 10px 20px;
+                            border: 1px solid #75b7c1;
+                            border-radius: 5px;
+                            cursor: pointer;
+                            margin: 0 auto;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            
+                        }
+                        body {text-align : center;}
+                        input[type="submit"]:hover {
+                            background-color: #1b2a2e;
+                        }
+                    </style>
+                    <td colspan="3"><input type="submit" name="input" value="KIRIM"></td>
+                </tr>
+            </table>
+        </FORM>
+    </body>
+    </html>
